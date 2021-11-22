@@ -1,0 +1,82 @@
+// Nesting|Anidamiento
+
+
+
+// Imagen de fondo
+.index{
+
+    background-image: url(../images/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    
+
+// Zona navegable
+.navegable-1{
+    color: #D9CEAD;
+    text-align: right;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: underline;
+    margin: 50px;
+}
+    .parrafo-1{
+        color: #A69B63;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'IM Fell English SC', serif;
+        margin: 100px;
+
+        .parrafo-1:hover {
+        transform: scale(1.2);
+        background-color: transparent;
+        transition: all 1s;
+        }
+    }
+
+    .parrafo-2{
+        color: #736A40;
+        text-align: center;
+        font-style:italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin: 120px;
+    }
+
+
+    .posts{
+        color: #595331;
+        text-align: center;
+        text-decoration: underline;
+        margin: 50px;
+        padding: 20px;
+        background-color:transparent;
+    
+        /* Declaro flexbox */
+    
+        display: flex;
+        justify-content:center;
+        justify-content: space-around;
+    }
+
+    
+footer {
+    p{
+        color: #736A40;
+        text-align: center;
+        font-style:italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin: 120px;
+        nav{
+    color: #595331;
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px;
+    padding: 20px;
+    background-color:transparent;
+        }
+    }
+}
+    

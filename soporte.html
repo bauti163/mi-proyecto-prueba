@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte</title>
+
+<link rel="stylesheet" href="css/style.css">
+<section class="iniciocontacto">
+    <a href="index.html">Inicio</a>
+</section>
+
+
+</head>
+<body id="soportefondo">
+    <header class="header-soporte">
+        <!--Aca va el logo personalizado con la palabra soporte-->
+        
+        <img src="./images/dr-soporte-logo3bc6e4cfee883064.png" alt="Soporte"> 
+    </header>
+
+    <article>
+        <p class="soporte">Area de comunicacion en linea</p>
+
+        <div class='container' ng-cloak ng-app="chatApp">
+            <h1>Chat</h1>
+            <div class='chatbox' ng-controller="MessageCtrl as chatMessage">
+              <div class='chatbox__user-list'>
+                <h1>Usuarios</h1>
+                <div class='chatbox__user--active'>
+                  <p>Bauti</p>
+                </div>
+                <div class='chatbox__user--busy'>
+                  <p>Nico</p>
+                </div>
+                <div class='chatbox__user--active'>
+                  <p>Sofi</p>
+                </div>
+                <div class='chatbox__user--active'>
+                  <p>Wanda</p>
+                </div>
+                <div class='chatbox__user--away'>
+                  <p>Tomi</p>
+                </div>
+              </div>
+              <div class="chatbox__messages" ng-repeat="message in messages">
+                <div class="chatbox__messages__user-message">
+                  <div class="chatbox__messages__user-message--ind-message">
+                    <p class="name">Mensaje</p>
+                    <br/>
+                    <p class="message">Mensaje</p>
+                  </div>
+                </div>
+              </div>
+              <form>
+                <input type="text" placeholder="Escribe aca tu mensaje">
+              </form>
+            </div>
+            </body>
+            </html>

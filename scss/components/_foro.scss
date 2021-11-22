@@ -1,0 +1,62 @@
+
+.forofondo {
+    background-image: url(../images/fondosoporte.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+.navegable-del-usuario{
+    color: white;
+    text-align:right;
+    font-style: initial;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+h2{
+    color: magenta;
+    text-align: center;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+
+.postsdelforo {
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 50px;
+
+    /* Declaro flexbox */
+    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.posts-usuarios {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 200px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+
+.footer-del-foro{
+    color: blue;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: transparent;
+
+/* Declaro flexbox */
+    display: flex;
+    justify-content: flex-start;
+}
